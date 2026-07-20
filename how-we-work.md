@@ -4,7 +4,7 @@
 
 1. Join the T&T channel on the chapter Slack and say hi — that's where coordination happens.
 2. Get added to the [`nycdsa`](https://github.com/nycdsa) GitHub org (ask in the channel).
-3. Read this handbook, then the [website product spec](https://github.com/nycdsa/website/blob/main/product_spec.md) if you're joining the website project.
+3. Read this handbook. If you're joining the website project, also read its [product spec](https://github.com/nycdsa/website/blob/main/product_spec.md).
 
 ## Contributing code
 
