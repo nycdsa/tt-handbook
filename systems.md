@@ -1,6 +1,6 @@
 # Systems map
 
-Every live surface T&T runs or cares about, one paragraph each.
+Every live surface T&T runs.
 
 ![Current systems](state-of-world.png)
 
@@ -28,6 +28,48 @@ React/Vite SPA on Netlify with an onboarding checklist and event suggestions; Ne
 
 DokuWiki, hosted via Cloudron (not the main K8s stack). Members-only; DSA login works via a DokuWiki OIDC plugin pointed at Keycloak. Repos: [`wiki-conf`](https://github.com/nycdsa/wiki-conf), [`wiki-data`](https://github.com/nycdsa/wiki-data), [`mikio-dokuwiki-template`](https://github.com/nycdsa/mikio-dokuwiki-template).
 
+## Organizer-facing
+
+Leadership/organizer-only tooling. Unlike the member-facing surfaces, these handle PII (names, phone numbers, assignments), so access is genuinely restricted.
+
+### Onboarder — [onboarder.socialists.nyc](https://onboarder.socialists.nyc)
+
+React/TypeScript app for managing new-member onboarding: coordinators assign new members to onboarders and track progress through the workflow. Repo: [`onboarder-app`](https://github.com/nycdsa/onboarder-app).
+
+### Phone tree
+
+Mobile-first phone relay tool for organized call campaigns (TypeScript, Bun). Repo: [`phone-tree`](https://github.com/nycdsa/phone-tree).
+
+### Canvass with me
+
+TanStack Start + Bun app for coordinated canvassing, early in development. Repo: [`canvass-with-me`](https://github.com/nycdsa/canvass-with-me).
+
+## Working group & other sites
+
+### WG microsites
+
+Standalone working-group sites, each with its own stack:
+
+- Healthcare WG — Pelican static site on GitHub Pages. Repo: [`nyc-dsa-healthcare.github.io`](https://github.com/nycdsa/nyc-dsa-healthcare.github.io)
+- Tech Action — [techaction.nyc](https://www.techaction.nyc/), Jekyll static site. Repo: [`tech-action-working-group`](https://github.com/nycdsa/tech-action-working-group)
+- powerup.nyc — no repo in the org that we know of
+
+### The Thorn — [thethorn.nyc](https://thethorn.nyc)
+
+Electoral working group newsletter. Jekyll static site. Repo: [`the-thorn`](https://github.com/nycdsa/the-thorn).
+
+### Ballot lookup — ballot.socialists.nyc
+
+Enter an NYC address, see NYC-DSA endorsed candidates on your primary ballot. Static Astro site; the lookup runs entirely in the browser. Election-cycle tool. Repo: [`vote-dsa-down-the-ballot`](https://github.com/nycdsa/vote-dsa-down-the-ballot).
+
+### Results — results.socialists.nyc
+
+Election-night results one-off.
+
+### Shopify store — shop.socialists.nyc
+
+Hosted Shopify storefront.
+
 ## Shared infrastructure
 
 ### Kubernetes cluster ("the DSA cloud")
@@ -41,13 +83,3 @@ Our identity provider (IdP) — one DSA login across apps. Lives in the `nycdsa`
 ### Windmill
 
 Self-hosted workflow/automation platform (think open-source Zapier/retool for scripts). Syncs data from Action Network and SolidarityTech into our Postgres databases and serves as a lightweight backend for the member app. Repo: [`member-app-windmill`](https://github.com/nycdsa/member-app-windmill).
-
-## Also T&T territory
-
-| Thing | What it is |
-|-------|------------|
-| Organizer tools | [`onboarder-app`](https://github.com/nycdsa/onboarder-app), [`phone-tree`](https://github.com/nycdsa/phone-tree), [`canvass-with-me`](https://github.com/nycdsa/canvass-with-me) — leadership/organizer-only tooling with access to PII |
-| Shopify store | shop.socialists.nyc |
-| WG microsites | e.g. [`nyc-dsa-healthcare.github.io`](https://github.com/nycdsa/nyc-dsa-healthcare.github.io), [`tech-action-working-group`](https://github.com/nycdsa/tech-action-working-group) (techaction.nyc), powerup.nyc — standalone working-group sites |
-| The Thorn | Chapter-adjacent news site (thethorn.nyc, Jekyll) — [`the-thorn`](https://github.com/nycdsa/the-thorn) |
-| results / ballot sites | Election-cycle one-offs (results.socialists.nyc, ballot.socialists.nyc) — ballot: [`vote-dsa-down-the-ballot`](https://github.com/nycdsa/vote-dsa-down-the-ballot) |
