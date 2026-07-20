@@ -18,15 +18,15 @@ Each repo's own README / AGENTS.md / CONTRIBUTING.md is authoritative for its co
 
 ## Local development
 
-The standard for our repos (fully true of `nycdsa/website`, aspirational elsewhere):
+Each repo has its own setup — start with that repo's README (or CONTRIBUTING / AGENTS.md). Commands and tooling differ across projects.
 
-```bash
-git clone <repo>
-just install   # deps, local services, seeded test data
-just dev       # running app
-```
+What we aim for everywhere we can:
 
-No secrets, no external accounts, no prod data. If a repo doesn't work this way yet, improving that is a welcome contribution.
+- No prod data in local environments — use seeded/fake data
+- No "ask someone for the secrets" gate just to run the app
+- Setup that a new contributor can follow from the docs alone
+
+If a repo's setup is painful or undocumented, fixing that is a welcome contribution.
 
 ## Asking questions
 

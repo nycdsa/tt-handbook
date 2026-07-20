@@ -30,7 +30,7 @@ That applies whether you wrote it by hand or with an LLM:
 
 ## A great developer experience
 
-It should be *really really* easy to contribute. Clone, `just install`, `just dev` — no API keys, no secrets, no "ask someone for the .env". Local development runs against local services and seeded test data. If setup requires tribal knowledge, that's a bug.
+It should be *really really* easy to contribute. Clone the repo, follow the README, and get a running local environment — no API keys, no secrets, no "ask someone for the .env". Local development runs against local services and seeded test data. If setup requires tribal knowledge, that's a bug.
 
 ## We never develop against prod data
 
