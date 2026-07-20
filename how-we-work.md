@@ -2,8 +2,8 @@
 
 ## Getting plugged in
 
-1. Join the T&T channel on the chapter Slack and say hi — that's where coordination happens.
-2. Get added to the [`nycdsa`](https://github.com/nycdsa) GitHub org (ask in the channel).
+1. If you're not already in the Tech & Tools Slack server, [request to join here](https://actionnetwork.org/forms/nyc-dsa-tech-tools-interest-form). Once you're accepted, introduce yourself in `#general-and-welcome`.
+2. Get added to the [`nycdsa`](https://github.com/nycdsa) GitHub org (ask in Slack).
 3. Read this handbook. If you're joining the website project, also read its [product spec](https://github.com/nycdsa/website/blob/main/product_spec.md).
 
 ## Contributing code
@@ -12,7 +12,7 @@ Work happens through GitHub issues and pull requests, like any open-source proje
 
 1. Pick up an issue (or open one describing what you want to do).
 2. Branch, make the change, open a PR.
-3. PRs get reviewed and merged; nobody pushes to main on shared repos without review unless it's their own project area.
+3. PRs get reviewed and merged. Don't push straight to main on shared repos — exception: if you lead a project, you can ship to main in that project's area.
 
 Each repo's own README / AGENTS.md / CONTRIBUTING.md is authoritative for its conventions. For the website monorepo specifically: [`CONTRIBUTING.md`](https://github.com/nycdsa/website/blob/main/CONTRIBUTING.md).
 
