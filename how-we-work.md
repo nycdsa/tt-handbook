@@ -18,13 +18,7 @@ Each repo's own README / AGENTS.md / CONTRIBUTING.md is authoritative for its co
 
 ## Local development
 
-Each repo has its own setup — start with that repo's README (or CONTRIBUTING / AGENTS.md). Commands and tooling differ across projects.
-
-What we aim for everywhere we can:
-
-- No prod data in local environments — use seeded/fake data
-- No "ask someone for the secrets" gate just to run the app
-- Setup that a new contributor can follow from the docs alone
+Each repo has its own setup — start with that repo's README (or CONTRIBUTING / AGENTS.md). Commands and tooling differ across projects. The norms we hold everywhere (seeded data, no prod data, no secrets gate) are in [`principles.md`](principles.md).
 
 If a repo's setup is painful or undocumented, fixing that is a welcome contribution.
 
