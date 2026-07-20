@@ -2,6 +2,37 @@
 
 The reasoning behind recurring decisions. Product-level tenets live in the [website product spec](https://github.com/nycdsa/website/blob/main/product_spec.md); these are the T&T-wide ones.
 
+## Code of conduct & AI policy
+
+We follow:
+
+- [DSA Code of Conduct](https://socialists.nyc/code-of-conduct)
+- [Progressive Hack Night Code of Conduct](https://progressivehacknight.org/code-of-conduct.htm)
+
+In practice that means:
+
+- Step up, step back
+- No feigning surprise
+- No well-actually's
+- No back-seat driving
+
+### Community & Slack
+
+- Use your real name
+- Put your GitHub handle in your Slack profile
+- Have some sort of picture — ideally one that matches GitHub
+
+### AI policy
+
+[Simon Willison](https://simonwillison.net/2025/Dec/18/code-proven-to-work/): *"Your job is to deliver code you have proven to work."*
+
+That applies whether you wrote it by hand or with an LLM:
+
+- You own proving the change works before you ask someone else to look at it
+- Don't ship unverified AI output — dumping a giant untested PR on reviewers is rude
+- Prove it however fits: run it yourself, add tests, paste commands/output or a short screen capture in the PR
+- A computer can't be held accountable; the human who opened the PR can
+
 ## A great developer experience
 
 It should be *really really* easy to contribute. Clone, `just install`, `just dev` — no API keys, no secrets, no "ask someone for the .env". Local development runs against local services and seeded test data. If setup requires tribal knowledge, that's a bug.
