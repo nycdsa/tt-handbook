@@ -36,7 +36,7 @@ Self-managed K8s on DigitalOcean, defined with Pulumi in [`infrastructure`](http
 
 ### Keycloak
 
-Our identity provider (IdP) — one DSA login across apps. Lives in the `nycdsa` realm, currently hosted on Cloudron. Access governance (who is in which groups, which groups grant which app roles) is handled by the [Access Management Portal](https://github.com/nycdsa/access-management), not by hand-assigning roles to users.
+Our identity provider (IdP) — one DSA login across apps. Lives in the `nycdsa` realm, currently hosted on Cloudron. Access governance (who is in which groups, which groups grant which app roles) is handled by the [`access-management`](https://github.com/nycdsa/access-management) portal, not by hand-assigning roles to users.
 
 ### Windmill
 
@@ -46,8 +46,8 @@ Self-hosted workflow/automation platform (think open-source Zapier/retool for sc
 
 | Thing | What it is |
 |-------|------------|
-| Organizer tools | Onboarder, phone tree, canvass-with-me — leadership/organizer-only tooling with access to PII |
+| Organizer tools | [`onboarder-app`](https://github.com/nycdsa/onboarder-app), [`phone-tree`](https://github.com/nycdsa/phone-tree), [`canvass-with-me`](https://github.com/nycdsa/canvass-with-me) — leadership/organizer-only tooling with access to PII |
 | Shopify store | shop.socialists.nyc |
-| WG microsites | e.g. healthcare, powerup.nyc, techaction.nyc — standalone working-group sites |
-| The Thorn | Chapter-adjacent news site (thethorn.nyc, Jekyll) |
-| results / ballot sites | Election-cycle one-offs (results.socialists.nyc, ballot.socialists.nyc) |
+| WG microsites | e.g. [`nyc-dsa-healthcare.github.io`](https://github.com/nycdsa/nyc-dsa-healthcare.github.io), [`tech-action-working-group`](https://github.com/nycdsa/tech-action-working-group) (techaction.nyc), powerup.nyc — standalone working-group sites |
+| The Thorn | Chapter-adjacent news site (thethorn.nyc, Jekyll) — [`the-thorn`](https://github.com/nycdsa/the-thorn) |
+| results / ballot sites | Election-cycle one-offs (results.socialists.nyc, ballot.socialists.nyc) — ballot: [`vote-dsa-down-the-ballot`](https://github.com/nycdsa/vote-dsa-down-the-ballot) |
