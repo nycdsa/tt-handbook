@@ -44,6 +44,14 @@ Mobile-first phone relay tool for organized call campaigns (TypeScript, Bun). Re
 
 TanStack Start + Bun app for coordinated canvassing, early in development. Repo: [`canvass-with-me`](https://github.com/nycdsa/canvass-with-me).
 
+### Access Management Portal (AMP)
+
+Next.js app governing membership in requestable Keycloak groups: requests, approvals, direct grants, and reconciliation against Keycloak. The repo also holds the human-maintained Keycloak access inventory and a local Keycloak + Postgres dev stack. Repo: [`access-management`](https://github.com/nycdsa/access-management).
+
+### Office booking
+
+Booking app for the chapter office in Brooklyn: members request access, captains approve, approved members reserve the office for co-working and meetings. Next.js + Neon Postgres/Prisma, magic-link email auth, deployed on Vercel. Repo: [`dsa-office-booking`](https://github.com/nycdsa/dsa-office-booking).
+
 ## Working group & other sites
 
 ### WG microsites
