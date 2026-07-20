@@ -3,7 +3,7 @@
 ## Getting plugged in
 
 1. If you're not already in the Tech & Tools Slack server, [request to join here](https://actionnetwork.org/forms/nyc-dsa-tech-tools-interest-form). Once you're accepted, introduce yourself in `#general-and-welcome`.
-2. Get added to the [`nycdsa`](https://github.com/nycdsa) GitHub org (ask in Slack).
+2. Get added to the [`nycdsa`](https://github.com/nycdsa) GitHub org (ask in `#general-and-welcome`).
 3. Read this handbook. If you're joining the website project, also read its [product spec](https://github.com/nycdsa/website/blob/main/product_spec.md).
 
 ## Contributing code
