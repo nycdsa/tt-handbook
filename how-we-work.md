@@ -28,18 +28,6 @@ just dev       # running app
 
 No secrets, no external accounts, no prod data. If a repo doesn't work this way yet, improving that is a welcome contribution.
 
-## Where things get decided
-
-| Kind of decision | Where it lives |
-|------------------|----------------|
-| Website product direction | [`product_spec.md`](https://github.com/nycdsa/website/blob/main/product_spec.md) in `nycdsa/website` |
-| What currently exists / as-is infra | [`docs/state-of-world.md`](https://github.com/nycdsa/website/blob/main/docs/state-of-world.md) |
-| Who owns what | [`project_owners.md`](https://github.com/nycdsa/website/blob/main/project_owners.md) |
-| Infra config | [`infrastructure`](https://github.com/nycdsa/infrastructure) (Pulumi) |
-| Access / groups | [Access Management Portal](https://github.com/nycdsa/access-management) |
-
-If a decision changed and the doc didn't, updating the doc is part of the change.
-
 ## Asking questions
 
 Ask in Slack, early and often. The systems here were pieced together by volunteers over years — nobody has the whole picture in their head, and "how does X actually work?" questions regularly surface things worth writing down. When you get a good answer, consider PRing it into this handbook.
