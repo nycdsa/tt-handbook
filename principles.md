@@ -1,6 +1,6 @@
 # Principles and mental models
 
-Operating norms for Tech & Tools. Product-level decisions for the website live in the [website product spec](https://github.com/nycdsa/website/blob/main/product_spec.md) — not here.
+Operating norms for Tech & Tools.
 
 ## Code of conduct & AI policy
 
@@ -38,14 +38,14 @@ Local environments use seeded fake users and fake content. Real member data neve
 
 ## Non-privileged data on the member surface
 
-Anyone can become a DSA member for about $15, so "members-only" is a *very* soft boundary. The mental model: anything on the member-facing surface is effectively public. Genuinely sensitive data (home addresses, phone numbers, PII) belongs in organizer tools with real access control — not on the website, the wiki, or the CMS.
+Anyone can become a DSA member for about $15, so "members-only" is a *very* soft boundary. The mental model: anything on the member-facing surface is effectively public. Genuinely sensitive data (home addresses, phone numbers, PII) belongs in organizer tools with real access control — not on the public site, the wiki, or other soft-gated surfaces.
 
 Corollary: restricting content behind further member-only tiers deserves scrutiny, because the tier barely restricts anyone.
 
 ## Identity through groups, not individuals
 
-App roles attach to Keycloak groups; people get roles by being in groups; group membership is governed through the [Access Management Portal](https://github.com/nycdsa/access-management). "Give Maria edit access to the healthcare WG page" is a group-membership change, not a code deploy and not a hand-edit in an admin panel.
+App roles attach to Keycloak groups; people get roles by being in groups; group membership is governed through the [Access Management Portal](https://github.com/nycdsa/access-management). "Give Maria edit access" is a group-membership change, not a code deploy and not a hand-edit in an admin panel.
 
 ## Markdown is the system of record
 
-Decisions live in version-controlled markdown in the relevant repo (product spec, state-of-world, per-app AGENTS/README files), not in Slack threads or Google Docs. If you change how systems fit together, update the docs in the same PR.
+Decisions live in version-controlled markdown in the relevant repo (README, AGENTS.md, and similar), not in Slack threads or Google Docs. If you change how systems fit together, update the docs in the same PR.

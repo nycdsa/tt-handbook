@@ -1,14 +1,12 @@
 # Systems map
 
-Every live surface T&T runs or cares about, one paragraph each. More as-is detail and diagrams: [`state-of-world.md` in the website repo](https://github.com/nycdsa/website/blob/main/docs/state-of-world.md).
-
-Related: active website product work → [`nycdsa/website`](https://github.com/nycdsa/website).
+Every live surface T&T runs or cares about, one paragraph each.
 
 ## Member-facing
 
 ### Public website — [socialists.nyc](https://socialists.nyc)
 
-WordPress today. The chapter's front door and our most important SEO asset (first Google result for "nyc dsa"). Active website work: [`nycdsa/website`](https://github.com/nycdsa/website).
+WordPress. The chapter's front door and our most important SEO asset (first Google result for "nyc dsa").
 
 ### Calendar — [calendar.socialists.nyc](https://calendar.socialists.nyc)
 
@@ -38,9 +36,9 @@ Our identity provider (IdP) — one DSA login across apps. Lives in the `nycdsa`
 
 ### Windmill
 
-Self-hosted workflow/automation platform (think open-source Zapier/retool for scripts). Syncs data from Action Network and SolidarityTech into our Postgres databases and serves as a lightweight backend for the member app. Lives outside the website monorepo. Repo: [`member-app-windmill`](https://github.com/nycdsa/member-app-windmill).
+Self-hosted workflow/automation platform (think open-source Zapier/retool for scripts). Syncs data from Action Network and SolidarityTech into our Postgres databases and serves as a lightweight backend for the member app. Repo: [`member-app-windmill`](https://github.com/nycdsa/member-app-windmill).
 
-## Also T&T territory (not the website monorepo)
+## Also T&T territory
 
 | Thing | What it is |
 |-------|------------|

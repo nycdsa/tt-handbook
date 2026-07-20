@@ -2,21 +2,9 @@
 
 What each technology is and where it runs today. No prior familiarity assumed.
 
-## Astro
-
-[Astro](https://astro.build/) is a web framework focused on content-heavy sites. It renders pages to plain HTML on the server (fast, great SEO) and only ships JavaScript for the interactive "islands" that need it. Used in the website monorepo (`nycdsa/website`) for the rebuild of socialists.nyc.
-
-## Cloudflare (Workers / Pages)
-
-[Cloudflare](https://www.cloudflare.com/) hosts the Astro public site at the edge. The live socialists.nyc front door today is still WordPress; Cloudflare is part of the website project's current stack.
-
-## Payload CMS
-
-[Payload](https://payloadcms.com/) is a headless CMS — a content database with an admin UI, but no opinions about how the site looks. Schema is defined in code (TypeScript). Lives in `apps/cms` in the website monorepo.
-
 ## Keycloak
 
-[Keycloak](https://www.keycloak.org/) is an open-source identity provider: one DSA account, one login page, used by apps that need auth (wiki, member app, CMS admin, and others as they wire it up). Apps never see your password — they get signed tokens with claims (who you are, what groups you're in, what roles those groups grant).
+[Keycloak](https://www.keycloak.org/) is an open-source identity provider: one DSA account, one login page, used by apps that need auth (wiki, member app, and others). Apps never see your password — they get signed tokens with claims (who you are, what groups you're in, what roles those groups grant). Hosted on Cloudron today.
 
 Two rules worth internalizing early:
 
@@ -43,6 +31,6 @@ The "DSA cloud" is a Kubernetes cluster on DigitalOcean, fully described as code
 
 The wiki engine behind wiki.socialists.nyc. File-based, boring, works. Members-only via its OIDC plugin pointed at Keycloak.
 
-## The dev toolchain
+## WordPress / Netlify / React / etc.
 
-The website monorepo uses [pnpm](https://pnpm.io/) workspaces and [`just`](https://github.com/casey/just) as a command runner. The contract there: `git clone`, `just install`, `just dev` — local Keycloak, local Postgres, seeded test data, no secrets or external accounts required. Other repos vary; improving toward that bar is welcome.
+Individual apps also use more familiar pieces — WordPress for socialists.nyc, React SPAs and Netlify functions for the calendar and member app, TanStack Start / Bun for canvass. See [`systems.md`](systems.md) for which stack sits where.
