@@ -4,12 +4,7 @@ Operating norms for Tech & Tools. Product-level decisions for the website live i
 
 ## Code of conduct & AI policy
 
-We follow:
-
-- [DSA Code of Conduct](https://socialists.nyc/code-of-conduct)
-- [Progressive Hack Night Code of Conduct](https://www.progressivehacknight.org/code-of-conduct.html)
-
-In practice that means:
+We follow the [DSA Code of Conduct](https://socialists.nyc/code-of-conduct). We also borrow Progressive Hack Night's social rules (their CoC page is currently unreachable):
 
 - Step up, step back
 - No feigning surprise
@@ -46,6 +41,10 @@ Local environments use seeded fake users and fake content. Real member data neve
 Anyone can become a DSA member for about $15, so "members-only" is a *very* soft boundary. The mental model: anything on the member-facing surface is effectively public. Genuinely sensitive data (home addresses, phone numbers, PII) belongs in organizer tools with real access control — not on the website, the wiki, or the CMS.
 
 Corollary: restricting content behind further member-only tiers deserves scrutiny, because the tier barely restricts anyone.
+
+## Public to read, log in to act
+
+Like Hacker News: the site is readable by anyone; authentication exists to *do* things (track your onboarding checklist, see your dashboard, edit CMS content). Auth is not primarily a secrecy mechanism here.
 
 ## Identity through groups, not individuals
 
