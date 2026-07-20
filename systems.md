@@ -2,6 +2,10 @@
 
 Every live surface T&T runs or cares about, one paragraph each.
 
+![Current systems](state-of-world.png)
+
+Diagram may be incomplete (pieced together from code + infra) — PRs welcome.
+
 ## Member-facing
 
 ### Public website — [socialists.nyc](https://socialists.nyc)
@@ -10,11 +14,11 @@ WordPress. The chapter's front door and our most important SEO asset (first Goog
 
 ### Calendar — [calendar.socialists.nyc](https://calendar.socialists.nyc)
 
-React SPA (MUI) on Netlify; Netlify functions talk to a Postgres database via Prisma. Public, no login. Repo: [`nyc-dsa-calendar`](https://github.com/nycdsa/nyc-dsa-calendar).
+React SPA (MUI) on Netlify; Netlify functions talk to a Postgres database via Prisma. Public, no login. (The repo has self-host paths too; Netlify is what's live.) Repo: [`nyc-dsa-calendar`](https://github.com/nycdsa/nyc-dsa-calendar).
 
 ### Canvass map — [canvass.socialists.nyc](https://canvass.socialists.nyc)
 
-TanStack Start + Tailwind/shadcn, Bun runtime, own Postgres on our Kubernetes cluster. Windmill syncs canvassing events from Action Network into its database. Public. Repo: [`canvass-map`](https://github.com/nycdsa/canvass-map).
+TanStack Start + Tailwind/shadcn, Bun runtime, Prisma against its own Postgres on our Kubernetes cluster. Windmill syncs canvassing events from Action Network into its database. Public. Repo: [`canvass-map`](https://github.com/nycdsa/canvass-map).
 
 ### New member app — [member.socialists.nyc](https://member.socialists.nyc)
 
