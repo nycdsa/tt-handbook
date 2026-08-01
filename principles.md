@@ -4,7 +4,7 @@ Operating norms for Tech & Tools.
 
 ## Code of conduct & AI policy
 
-We follow the [DSA Code of Conduct](https://socialists.nyc/code-of-conduct). We also borrow Progressive Hack Night's social rules (their CoC page is currently unreachable):
+We follow the [DSA Code of Conduct](https://socialists.nyc/code-of-conduct). We also borrow Progressive Hack Night's social rules:
 
 - Step up, step back
 - No feigning surprise
