@@ -26,8 +26,9 @@ The following are some some principles and a handful of redlines to guide how me
 
 Sending a fellow NYC-DSA member written communication is an imposition on their individual time and on the collective resource
 of "the spare time we all, as volunteers, have to devote to DSA". 
-Using AI in your communication creates a substantial risk of  wasting someone's time. At the very least, 
-you should review the content of written communication and ensure that it is something that *you* 
+
+Using AI in your communication creates a substantial risk of devaluating someone's time and treating them like a machine themselves. 
+At the very least,  you should review the content of written communication and ensure that it is something that *you* 
 would think it is worth your time to *read*.
 
 This means that *in general*, documentation, project updates, proposals, and messages to other 
@@ -69,19 +70,25 @@ If your code contains some bad technical decisions or other problems which were 
 understanding from you, the social interaction between contributors around these questions is much easier 
 if the reviewer/corrector understands that they are correcting your agent rather than correcting you.
 
+If you are using a coding agent which offers commit co-authoring, better to [leave that setting on](https://code.claude.com/docs/en/settings#available-settings).
+
 ## *Adding code is an imposition on an unknown future comrade*: accept rejection of your contributions on that basis
 
-Three things are true:
-  1. The fact that you were able to generate code which has utility in this moment is a different question  
-     from the Tech & Tools committee's evaluation of the utility and liability of the code over its expected lifetime
-  2. The Tech & Tools committee treats shipping code as carrying a commitment to the members of NYC-DSA that we will
-     maintain the volunteer and committee structures to ensure the software continues to work and can evolve as our members' needs change.
-  3. As an individual with a complex life, you cannot commit to indefinite maintenance of a piece of software in a volunteer
-     capacity.
+The Tech & Tools committee treats shipping code as carrying a commitment to the members of NYC-DSA that we will
+maintain the volunteer and committee structures to ensure the software continues to work and can evolve as our members' needs change.
 
-Because of these three, it is possible that certain contributions could be rejected or deferred if people think 
+The decision to ship or not ship software projects are therefore based on an evaluation of the utility and liability of the code over its expected lifetime.
+
+AI makes it really easy to generate code that immediately works for some need, but that some piece of software works right now and solves
+some immediate need is not a sufficient reason to ship it.
+
+As an individual with a complex life, you cannot commit to indefinite maintenance of a piece of software in a volunteer capacity.
+
+Because of all of this, it is possible that certain contributions could be rejected or deferred if people think 
 it would be unreasonable to expect a future Tech & Tools contributor to maintain it. This could because of its quality
 (horrific slop that still works) or its complexity even if it is high quality (we are not going to maintain, like, a database).
+
+Please be kind and understanding if this happens to you!
 
 ## Project ownership is about more than coding, AI won't help that much - we plan capacity accordingly
 
@@ -111,10 +118,10 @@ Additionally, it's easier from a compliance perspective for our work with our en
 us to have no intellectual property claims on the code we share or run for them. If we did, sharing the software for them
 may count as a contribution and be subject to regulation.
 
-This means that you can use coding subscriptions with provider-friendly data retention policies such as Claude Code,
-Codex, Meta Muse Spark 1.3 Contributor tier, or anything Chinese.
+This means that you can use coding subscriptions with provider-friendly data retention policies such as Cursor, Claude Code,
+Codex, Meta Muse Spark 1.3 Contributor tier, or anything Chinese. Use whatever you want!
 
-Don't worry about leaking the code or intellectual property - we don't want it!
+Don't worry about leaking the code or intellectual property - we don't want to maintain it!
 
 # Redlines
 
@@ -138,8 +145,15 @@ AI generated copy as part of an application flow, AI generated application brand
 decision oddities (use of emojis in place of proper icons, etc.) will undermine our members and the public's 
 confidence in our work and damage the work our designers do.
 
-We have a repo of branded [shadcn/ui](https://ui.shadcn.com) components that will allow you to use AI to generate
-your code *without* accidentally bringing in AI's creative decisions.
-
 We have excellent designers in the chapter who have succeeded in creating a powerful brand for New York City
 which communicates the seriousness, boldness, and vision of our mission, and we should use their work!
+
+We have a repo of branded [shadcn/ui](https://ui.shadcn.com) components that will allow you to use AI to generate
+your code *without* accidentally bringing in AI's creative decisions. It's generally fine to have a prompt for something 
+like a "combine these two ShadCN components to create a multi-select dropdown component with chips", but not a good 
+idea to submit prompts like:
+- "Create a visual display of donation history for our opponents that shows how they compare to us": for this, we want to
+  use our design and political resources to think through the messages we want to communicate and how
+- "Build the submission form based on the data model": we want to treat our users with respect. If they are going to put the
+  time into filling out the form, we should, in collaboration with our chapters UX designers, put the time into making 
+  the form copy and layout user-friendly and accessible.
