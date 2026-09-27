@@ -27,7 +27,7 @@ It should be *really really* easy to contribute. Clone the repo, follow the READ
 
 ## Center the users
 
-We solve problems for people, we don't just build tech. At the beginning of a project, interview the people who will use what you’re building to understand their needs. Then, show them your solutions and watch them complete top tasks. Follow a cycle of learn > build > test > repeat. Designers can help with this, but everyone can do it.
+We solve problems for people. At the beginning of a project, interview the people who will use what you’re building to understand their needs. Then, periodically, show them your solutions and watch them complete top tasks. Follow a cycle of learn > build > test > repeat. Designers can help with this, but everyone can do it.
 
 Instead of writing a list of requirements that describe features and products, develop a list of user stories. For example: As a [type of person], in order to [accomplish a goal], I need [to do a task]. This will help you better understand and prioritize people’s needs, give you flexibility in how you solve problems, and ultimately build solutions they love.
 
